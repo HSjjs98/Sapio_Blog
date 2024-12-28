@@ -3,7 +3,11 @@ module.exports = {
   darkMode: 'selector',
   content: ['./(app|src)/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'space-grotesk': ['var(--font-space-grotesk)'],
+      },
+    },
   },
   plugins: [],
 };
